@@ -11,6 +11,18 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
+  animated_text_kit: ^2.5.3
+  cloud_firestore: ^0.14.2
+  firebase_auth: ^0.18.2
+  firebase_core: ^0.5.1
+  modal_progress_hud: ^0.1.3
+  shared_preferences: ^0.5.12+2
+  intl: ^0.16.1
+
+
+
+
+
 
 dev_dependencies:
   flutter_test:
@@ -21,3 +33,9 @@ flutter:
 
   assets:
   - images/
+
+  fonts:
+    - family: Spartan MB
+      fonts:
+        - asset: fonts/SpartanMB-Black.otf
+          weight: 900
